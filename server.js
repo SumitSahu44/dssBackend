@@ -10,7 +10,8 @@ const app = express();
 const allowedOrigins = [
   "https://digitalsuccesssolutions.in",
   "http://192.168.1.9:3000",
-  "http://localhost:5173"
+  "http://localhost:5173",
+    "http://localhost:3000"
 ];
 
 app.use(
